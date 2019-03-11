@@ -1,0 +1,39 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Simple2DBarSeriesTutorial_WPF_SB"
+        xmlns:lcusb="http://schemas.arction.com/semibindablecharting/ultimate/" x:Class="Simple2DBarSeriesTutorial_WPF_SB.MainWindow"
+        mc:Ignorable="d"
+        Title="LightningChart Tutorial - Simple 2D BarSeries with CustomAxisTicks" Height="450" Width="800">
+    <Grid>
+        <lcusb:LightningChartUltimate x:Name="chart">
+            <lcusb:LightningChartUltimate.ViewXY>
+                <lcusb:ViewXY x:Name="view">
+                    <lcusb:ViewXY.XAxes>
+                        <lcusb:AxisX x:Name="axisX" CustomTicksEnabled="True" AutoFormatLabels="False" LabelsAngle="90">
+                            <lcusb:AxisX.Title>
+                                <lcusb:AxisXTitle Visible="False"/>
+                            </lcusb:AxisX.Title>
+                        </lcusb:AxisX>
+                    </lcusb:ViewXY.XAxes>
+                    <lcusb:ViewXY.YAxes>
+                        <lcusb:AxisY x:Name="axisY">
+                            <lcusb:AxisY.Title>
+                                <lcusb:AxisYTitle Text="Temperature °C"/>
+                            </lcusb:AxisY.Title>
+                        </lcusb:AxisY>
+                    </lcusb:ViewXY.YAxes>
+                    <lcusb:ViewXY.BarSeries>
+                        <lcusb:BarSeries x:Name="barSeries1" Values ="{Binding Source=bars1}"/>
+                        <lcusb:BarSeries x:Name="barSeries2" Values ="{Binding Source=bars2}"/>
+                    </lcusb:ViewXY.BarSeries>
+                    <lcusb:ViewXY.BarViewOptions>
+                        <lcusb:BarViewOptions Grouping="ByLocation"/>
+                    </lcusb:ViewXY.BarViewOptions>
+                </lcusb:ViewXY>
+            </lcusb:LightningChartUltimate.ViewXY>
+        </lcusb:LightningChartUltimate>
+    </Grid>
+</Window>
