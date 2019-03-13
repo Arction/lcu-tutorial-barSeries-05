@@ -1,4 +1,4 @@
-# Simple 2D BarSeries Chart with CustomAxisTicks
+# 2D BarSeries Chart with CustomAxisTicks
 
 This tutorial explains how to create a simple 2D chart with two *BarSeries*.   
 *BarSeries* is a representation of data values as rectangle shaped bars and it can be utilized for visualizing differences and variance between datas in a very clear manner.
