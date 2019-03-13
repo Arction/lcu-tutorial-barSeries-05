@@ -7,7 +7,7 @@ In this tutorial *BarSeries* is used for representing monthly average temperatur
 
 The tutorial assumes that you have created a new chart with *LightningChart* on a WinForms or WPF application. If not, please follow our [Simple 2D Chart](https://www.arction.com/tutorials/#/lcu_tutorial_simple2Dchart_01) on creating an application.
 
-![](./assets/chart-bar-series-2d-winforms-wpf.PNG)
+![chart with bar series 2d winforms wpf](./assets/chart-bar-series-2d-winforms-wpf.PNG)
 
 ##### 1. Create a new BarSeries and add styling for created series.
 
