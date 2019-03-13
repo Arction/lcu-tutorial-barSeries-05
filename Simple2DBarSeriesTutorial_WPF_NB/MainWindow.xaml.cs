@@ -1,5 +1,5 @@
 ﻿// ------------------------------------------------------------------------------------------------------
-// LightningChart® example code:  Simple 2D BarSeries Chart Demo.
+// LightningChart® example code: 2D BarSeries Chart Demo.
 //
 // If you need any assistance, or notice error in this example code, please contact support@arction.com. 
 //
@@ -13,7 +13,6 @@
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
-
 
 // Arction namespaces.
 using Arction.Wpf.Charting;            // LightningChartUltimate and general types.

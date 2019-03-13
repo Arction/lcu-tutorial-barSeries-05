@@ -1,5 +1,5 @@
 ﻿// ------------------------------------------------------------------------------------------------------
-// LightningChart® example code:  Simple 2D BarSeries Chart Demo.
+// LightningChart® example code: 2D BarSeries Chart Demo.
 //
 // If you need any assistance, or notice error in this example code, please contact support@arction.com. 
 //
